@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <style>
         .card__container {
      position:relative;
@@ -31,8 +32,10 @@
      transition:.25s all ease-in-out;
 }
 .card__title {
-     font-size:1.3rem;
+     font-family: 'Lobster', cursive;
+     font-size:2rem;
      font-weight:700;
+     color: brown;
 }
 .author {
      font-size:0.9rem;
@@ -54,10 +57,67 @@
           left:15%;
      }
 }
-        
+.slider {
+        max-width: 1000px;
+        height: 800px;
+        margin: 20px auto;
+        position: relative;
+      }
+      .slide1,.slide2,.slide3,.slide4,.slide5 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      .slide1 {
+        background: url(https://images.unsplash.com/photo-1521295121783-8a321d551ad2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)no-repeat center;
+            background-size: cover;
+          animation:fade 8s infinite;
+      -webkit-animation:fade 8s infinite;
+      
+      } 
+      .slide2 {
+        background: url(https://images.unsplash.com/photo-1486976862325-fbac7b41739b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)no-repeat center;
+            background-size: cover;
+          animation:fade2 8s infinite;
+      -webkit-animation:fade2 8s infinite;
+      }
+      .slide3 {
+          background: url(https://images.unsplash.com/photo-1509576931792-214960705f8a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)no-repeat center;
+            background-size: cover;
+          animation:fade3 8s infinite;
+      -webkit-animation:fade3 8s infinite;
+      }
+      @keyframes fade
+      {
+        0%   {opacity:1}
+        33.333% { opacity: 0}
+        66.666% { opacity: 0}
+        100% { opacity: 1}
+      }
+      @keyframes fade2
+      {
+        0%   {opacity:0}
+        33.333% { opacity: 1}
+        66.666% { opacity: 0 }
+        100% { opacity: 0}
+      }
+      @keyframes fade3
+      {
+        0%   {opacity:0}
+        33.333% { opacity: 0}
+        66.666% { opacity: 1}
+        100% { opacity: 0}
+      }
     </style>
 </head>
 <body>
+     <div class='slider'>
+        <div class='slide1'></div>
+        <div class='slide2'></div>
+        <div class='slide3'></div>
+      </div>
+    
+     
 
     <div class="container">
         <div class="row">
@@ -65,15 +125,15 @@
              <div class="card__container">
         <div class="card__media">
         </div>
-        <div class="card__body">
-             <div class="card__title">
-                  restaurants
-             </div>
-             <div class="card__description">
-                  <p class="author">ciwdjfgieu</p>
-                  <p class='author'><small>cjheiocn</small></p>
-             </div>
-        </div>
+        <a href="restaurant.html"><div class="card__body">
+          <div class="card__title">
+               Restaurants
+          </div>
+          <div class="card__description">
+               <p class="author"><b>restaurants,bakery shops,sweet shops etc</b></p>
+          </div>
+     </div></a>
+        
    </div>
         </div>
         <div class="col-md-4">
@@ -82,15 +142,16 @@
         <div class="card__media">
              
         </div>
-        <div class="card__body">
-             <div class="card__title">
-                  hospitals
-             </div>
-             <div class="card__description">
-                  <p class="author">clkdncoiewfjc</p>
-                  
-             </div>
-        </div>
+        <a href="medical.html"><div class="card__body">
+          <div class="card__title">
+               Hospitals
+          </div>
+          <div class="card__description">
+               <p class="author">clkdncoiewfjc</p>
+               
+          </div>
+     </div></a>
+        
    </div>
         </div>
         <div class="col-md-4">
@@ -98,14 +159,14 @@
         <div class="card__media">
              
         </div>
-        <div class="card__body">
-             <div class="card__title">
-                  clothing
-             </div>
-             <div class="card__description">
-                  <p class="author">mckwldjfcoiwe</p>
-                  
-             </div>
+     <a href="clothingnew.html"><div class="card__body"><div class="card__title">
+          clothing
+     </div>
+     <div class="card__description">
+          <p class="author">mckwldjfcoiwe</p>
+          
+     </div></div></a>
+             
         </div>
    </div>
         </div>
@@ -113,30 +174,32 @@
             <div class="card__container">
        <div class="card__media">
        </div>
-       <div class="card__body">
-            <div class="card__title">
-                 cnjwufhcoiw
-            </div>
-            <div class="card__description">
-                 <p class="author">ncwjd;io</p>
-                 <p class='author'><small>mcweifiw</small></p>
-            </div>
-       </div>
+       <a href="stationary.html"><div class="card__body">
+          <div class="card__title">
+               stationary
+          </div>
+          <div class="card__description">
+               <p class="author">ncwjd;io</p>
+               <p class='author'><small>mcweifiw</small></p>
+          </div>
+     </div></a>
+       
   </div>
        </div>
        <div class="col-md-4">
         <div class="card__container">
    <div class="card__media">
    </div>
-   <div class="card__body">
-        <div class="card__title">
-             xnwoepfhcw
-        </div>
-        <div class="card__description">
-             <p class="author">c wk;eiwdc</p>
-             <p class='author'><small>mcwoedui</small></p>
-        </div>
-   </div>
+   <a href="electronic.html"> <div class="card__body">
+     <div class="card__title">
+          electronics
+     </div>
+     <div class="card__description">
+          <p class="author">c wk;eiwdc</p>
+          <p class='author'><small>mcwoedui</small></p>
+     </div>
+</div></a>
+  
 </div>
    </div>
    </div>
