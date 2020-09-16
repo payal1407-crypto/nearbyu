@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.background {
+  background: url("https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 40px;
+  background-color: #f1faf8;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+.accordion {
+  background-color: teal;
+  color: #444;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  border: 3px solid beige;
+  color:white;
+  text-align: center;
+  outline: none;
+  font-size: 30px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color:rgb(167, 161, 161); 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color:white;
+  overflow: hidden;
+}
+h2{
+  font-size: 70px;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+}
+@media screen and (max-width: 748px){
+  h2{
+    text-align: left;
+  }
+  
+}
+
+
+
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="maf.html" class="active">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Our Services 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Hospitals and Medical Stores</a>
+      <a href="#">Clothing,Shoes,Accessories and Gift Items</a>
+      <a href="#">Hardware and Sofware Stores</a>
+	  <a href="#">Restaurants and Food Plaza</a>
+	  <a href="#">Stationary and Malls</a>
+    </div>
+  </div> 
+  <a href="aboutweb.html">About</a>
+  <a href="javascript:void(0);" style="font-size:35px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+  <div class="background">
+    <div class="transbox">
+      <p><h2>CLOTHING</h2></p>
+    </div>
+  </div>
+  
+
+  
+
+<button class="accordion" ><strong>RELIANCE TRENDS</strong></button>
+<div class="panel">
+  <p><strong>Address: Sugiadih, Sahayogi Nagar Sector II, Dhanbad, Jharkhand 828127</strong></p>
+  <p><strong>Hours: 
+Monday-Sunday	(11am–9:30pm)</strong> </p>
+<p><strong>OPEN</strong></p>
+<p><strong>Contact No. :</strong></p>
+<p><strong>Website: https://www.reliancetrends.com </strong></p>
+</div>
+
+<button class="accordion"><strong>JUNO GARMENTS</strong></button>
+<div class="panel">
+  <p><strong>Address: 10 & 11B Hirapur Park Market, Jharkhand 826001</strong></p>
+  <p><strong>Hours: 
+Monday-Sunday	(10am–9pm)</strong></p>
+  <p><strong>OPEN</strong></p>
+  <p><strong>Phone: 095070 36018</strong></p>
+  </div>
+
+<button class="accordion"><strong>MANYAVAR</strong></button>
+<div class="panel">
+  <p><strong>Address: 11B, Hirapur, Shop no 10, Park Market, Jharkhand 826001</strong></p>
+  <p><strong>TEMPORARILY CLOSED</strong></p>
+  <p><strong>Phone: 0326 231 0789</strong></p>
+ <p> <strong>Website: https://www.manyavar.com </strong></p>
+  </div>
+<button class="accordion"><strong>THE RAYMOND SHOP</strong></button>
+<div class="panel">
+  <p><strong>Address 1: Sri Ram Plaza New Narayan Medical Hall, Dhanbad Rd, Bank More, Dhanbad, Jharkhand 826001</strong></p>
+  <p><strong>Address 2: Sugiadih, CCWO Colony, Saraidhella, Jharkhand 828127</strong></p>
+  <p><strong>Hours 1: Sunday-Saturday (10am–9pm) Hours 2: Sunday-Saturday (10:30am-8:30pm)</strong></p>
+  <p><strong>OPEN</strong></p>
+<p><strong>Phone: 0326 230 4863,0326 222 5243 </strong></p>
+<p><strong>Website: https://www.theraymondshop.com</strong></p>
+</div>
+ 
+
+<button class="accordion"><strong>LIBERTY EXCLUSIVE SHOWROOM</strong></button>
+<div class="panel">
+  <p><strong>Address 1: Shahbadi Mension, Matkuria Colony Rd, Near Central Gurudwara, BCCL Colony, Bank More, Dhanbad, Jharkhand 82600</strong></p>
+  <p><strong>TEMPORARY CLOSED</strong></p>
+  <p><strong>Phone :9561478523</strong></p>
+  <p><strong>Address 2: Shahbadi Mension Bank More Near Central Gurudwara Matkuria Road, Dhanbad, Jharkhand 826001</strong></p>
+  <p><strong>OPEN</strong></p>
+  <p><strong>Hours: Sunday-Saturday	(10am–9:30pm)</strong></p>
+  <p><strong>Phone: 096218 55395</strong></p>
+  <p><strong>Address 3: NH 18, Kusum Vihar, Lohar Kulli SARAIDHELA, OPP.ALLAHABAD BANK, Dhanbad, Jharkhand 828127</strong></p>
+  <p><strong>OPEN</strong></p><p><strong>Hours:Sunday-Saturday	(10:30am–8:30pm)</strong></p>
+  <p><strong>Website: https://www.libertyexclusive.com</strong></p>
+  </div>
+  <button class="accordion"><strong>BATA</strong></button>
+<div class="panel">
+  
+  <p><strong>Address: SHOP NO 6,7 GROUND FLOOR CENTRE POINT (MALL, Jharkhand 826001</strong></p>
+  <p><strong>TEMPORARILY CLOSED</strong></p>
+  <p><strong>Phone: 090319 35008</strong></p>
+  <p><strong>Website: www.
+  </div>
+  <button class="accordion"><strong>Ajay Watch & Gift Corner</strong></button>
+<div class="panel">
+  <p><strong>Address: E-Block, Shakti Market, Bhuli Road, Dhanbad, Jharkhand 828105</strong></p>
+  <p><strong>OPEN</strong></p>
+  <p><strong>Hours: 
+Sunday-Saturday	(9am–9pm)</strong></p>
+  <p><strong>Phone: 095070 36018</strong></p>
+  </div>
+  <button class="accordion"><strong>Shanky Accessories</strong></button>
+<div class="panel">
+<p><strong>Address: AC Market, Bank More, Dhanbad, Jharkhand 826001</strong></p>
+<p><strong>Hours: Sunday-Saturday(10am–8pm)</strong></p>
+<p><strong>Phone: 9632587410</strong></p>
+</div>
+  
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
