@@ -3,16 +3,16 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Grid Menu | Demo 1 | Codrops</title>
+		<title>Grid Menu | Demo 2 | Codrops</title>
 		<meta name="description" content="A CSS Grid powered menu with a box look" />
 		<meta name="keywords" content="menu, css grid, box, navigation, web development, animation" />
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo1.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo2.css" />
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	</head>
-	<body class="demo-1">
+	<body class="demo-2 loading">
 		<svg class="hidden">
 			<symbol id="icon-arrow" viewBox="0 0 24 24">
 				<title>arrow</title>
@@ -35,36 +35,35 @@
 					<span class="info">Inspired by <a href="https://www.youtube.com/watch?v=Z9Ku5ptjzKw">Ableton Live 10: What's New</a></span>
 				</header>
 				<nav class="demos">
-					<a class="demo demo--current" href="index.html">demo 1</a>
-					<a class="demo" href="index2.html">demo 2</a>
+					<a class="demo" href="index.html">demo 1</a>
+					<a class="demo demo--current" href="index2.html">demo 2</a>
 					<a href="https://github.com/codrops/GridMenu" class="github">github</a>
 				</nav>
-				<button class="menu-trigger">+ info</button>
+				<button class="menu-trigger">+ explore</button>
 			</div>
 			<div id="content-1" class="content content--switch content--switch-current">
-				<h2 class="content__title">Dev Event</h2>
-				<div class="content__date">22 - 28 August 2018</div>
-				<div class="content__location">Blackpool, UK</div>
+				<h2 class="content__title">Escape</h2>
+				<div class="content__subtitle">explore nature</div>
 			</div>
 			<div id="content-2" class="content content--switch">
-				<h2 class="content__title">Venue</h2>
-				<p class="content__text">Synchronising customer experience and possibly increase viewability. Driving bleeding edge with the aim to make users into advocates. Generating below the line so that as an end result, we increase viewability. Executing thought leadership and try to improve overall outcomes. Growing below the fold so that we create actionable insights. Considering responsive websites yet make users into advocates.</p>
+				<h2 class="content__title">Beach</h2>
+				<div class="content__subtitle">Lift your spirits</div>
 			</div>
 			<div id="content-3" class="content content--switch">
-				<h2 class="content__title">Sponsors</h2>
-				<p class="content__text">Informing vertical integration while remembering to funnel users. Take thought leadership with the possibility to surprise and delight. Target analytics to in turn infiltrate new markets. Demonstrate audience segments so that as an end result, we think outside the box. Create analytics in order to make the logo bigger.</p>
+				<h2 class="content__title">Desert</h2>
+				<div class="content__subtitle">Find yourself</div>
 			</div>
 			<div id="content-4" class="content content--switch">
-				<h2 class="content__title">Speakers</h2>
-				<p class="content__text">Utilising growth hacking in order to get buy in. Repurposing stakeholder management while remembering to re-target key demographics. Grow vertical integration to, consequently, create synergy. Synchronising custom solutions with the aim to gain traction. Amplifying branding to, consequently, re-target key demographics.</p>
+				<h2 class="content__title">Ocean</h2>
+				<div class="content__subtitle">Uncover beauty</div>
 			</div>
 			<div id="content-5" class="content content--switch">
-				<h2 class="content__title">Tickets</h2>
-				<p class="content__text">Leverage outside the box thinking to in turn re-target key demographics. Build empathy maps with the possibility to re-target key demographics. Informing key demographics yet make users into advocates. Leveraging customer journeys and above all, maximise share of voice. Amplifying awareness with a goal to re-target key demographics.</p>
+				<h2 class="content__title">Jungle</h2>
+				<div class="content__subtitle">Feel nature</div>
 			</div>
 			<div id="content-6" class="content content--switch">
-				<h2 class="content__title">Schedule</h2>
-				<p class="content__text">Amplifying below the fold in order to think outside the box. Leveraging innovation and above all, build ROI. Synchronise responsive websites but disrupt the balance. Synchronise innovation to, consequently, funnel users. Create above the fold in order to be on brand. Amplify awareness with a goal to infiltrate new markets.</p>
+				<h2 class="content__title">Mountains</h2>
+				<div class="content__subtitle">Explore your limits</div>
 			</div>
 			<nav class="grim">
 				<div class="grim__item">
@@ -88,59 +87,70 @@
 					<div class="grim__item-bg grim__item-bg--5"></div>
 					<a href="#content-1" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
-							<h3 class="grim__item-title">home</h3>
+							<h3 class="grim__item-title">Home</h3>
 						</div>
 					</a>
 				</div>
 				<div class="grim__item">
 					<div class="grim__item-bg grim__item-bg--6"></div>
+					<div class="grim__item-img grim__item-img--1" style="background-image: url(img/1.jpg);"></div>
 					<a href="#content-2" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
-							<h3 class="grim__item-title">venue</h3>
-							<span class="grim__item-desc">One place for all.</span>
+							<h3 class="grim__item-title">Beach</h3>
+							<span class="grim__item-desc">Lift your spirits</span>
 						</div>
 					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--6"></div>
 				</div>
 				<div class="grim__item">
 					<div class="grim__item-bg grim__item-bg--7"></div>
+					<div class="grim__item-img grim__item-img--2" style="background-image: url(img/2.jpg);"></div>
 					<a href="#content-3" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
-							<h3 class="grim__item-title">sponsors</h3>
-							<span class="grim__item-desc">Find out who supports us.</span>
+							<h3 class="grim__item-title">Desert</h3>
+							<span class="grim__item-desc">Find yourself</span>
 						</div>
 					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--7"></div>
 				</div>
 				<div class="grim__item">
 					<div class="grim__item-bg grim__item-bg--8"></div>
-					<a href="#content-5" class="grim__link grim__item-content">
+					<div class="grim__item-img grim__item-img--3" style="background-image: url(img/3.jpg);"></div>
+					<a href="#content-4" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
-							<h3 class="grim__item-title">tickets</h3>
-							<span class="grim__item-desc">Get the right ticket</span>
+							<h3 class="grim__item-title">Ocean</h3>
+							<span class="grim__item-desc">Uncover beauty</span>
 						</div>
 					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--8"></div>
 				</div>
 				<div class="grim__item">
 					<div class="grim__item-bg grim__item-bg--9"></div>
-					<a href="#content-4" class="grim__link grim__item-content">
+					<div class="grim__item-img grim__item-img--4" style="background-image: url(img/4.jpg);"></div>
+					<a href="#content-5" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
-							<h3 class="grim__item-title">speakers</h3>
-							<span class="grim__item-desc">Smart people. All in one place.</span>
+							<h3 class="grim__item-title">Jungle</h3>
+							<span class="grim__item-desc">Feel nature</span>
 						</div>
 					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--9"></div>
 				</div>
 				<div class="grim__item">
-					<div class="grim__item-bg grim__item-bg--10" data-duration="1000" data-easing="easeOutQuint"></div>
+					<div class="grim__item-bg grim__item-bg--10"></div>
+					<div class="grim__item-img grim__item-img--5" style="background-image: url(img/5.jpg);"></div>
 					<a href="#content-6" class="grim__link grim__item-content">
 						<div class="grim__item-inner">
-							<h3 class="grim__item-title">schedule</h3>
-							<span class="grim__item-desc">When the time is right, you'll learn.</span>
+							<h3 class="grim__item-title">Mountains</h3>
+							<span class="grim__item-desc">Explore your limits</span>
 						</div>
 					</a>
+					<div class="grim__item-bg grim__item-bg-cover grim__item-bg--10"></div>
 				</div>
 			</nav>
 		</main>
 		<script src="js/demo.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/anime.min.js"></script>
-		<script src="js/menu.js"></script>
+		<script src="js/menu2.js"></script>
 	</body>
 </html>
